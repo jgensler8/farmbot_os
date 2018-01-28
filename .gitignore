@@ -1,0 +1,47 @@
+# App artifacts
+/_build
+/db
+/deps
+/*.ez
+/doc
+/cover
+ttb_last_config
+
+# Nerves artifacts
+/_images
+/.nerves
+/images
+/nerves/*
+!/nerves/host
+!/nerves/target
+
+# Secret config
+auth_secret_test.exs
+auth_secret.exs
+
+# Farmbot argifacts
+tmp/
+test_tmp/
+priv/build_calendar.so
+*.o
+
+# Generated on crash by the VM
+erl_crash.dump
+
+# From other branches
+/cache
+*.js
+/release-*
+node_modules
+
+# Various env vars.
+.env
+scripts/mqtt.py
+
+# Fwup keys aren't stored here, but just in case.
+*.priv
+run-qemu.sh
+*.img
+artifacts
+RELEASE_NOTES
+*.hex
